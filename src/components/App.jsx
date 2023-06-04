@@ -15,6 +15,10 @@ class App extends React.Component {
     ],
     filter: '',
   }
+
+  componentDidMount() {
+    
+  }
   
   handleSubmit = ({ name, number }) => {
     const { contacts } = this.state;
