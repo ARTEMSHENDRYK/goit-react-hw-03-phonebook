@@ -19,7 +19,7 @@ class ContactList extends React.Component {
                   onDelete={onDelete}
                 />
               </li>
-            );
+            );  
           })}
         </ul>
       </div>
